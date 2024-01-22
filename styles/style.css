@@ -31,13 +31,19 @@
 
 .form-container{
     background-color: rgb(35, 35, 35);
-    width: 50%;
+    width: 70%;
     align-items: center;
-    margin: 1rem auto;
-    display: flex;
-    text-align: center;
+    margin: 0 auto;
     border-radius: 10px;
     padding: 1rem;
+} 
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 97%;
 }
 
 input, textarea{
@@ -62,7 +68,7 @@ textarea{
     height: 30px;
     border-radius: 7px;
     padding: 5px;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 body{
@@ -78,8 +84,13 @@ body{
 
 span{
     font-size: var(--span-font-size);
-    background-color: rgb(32, 32, 32);
-    border-radius: 7px;
     padding: 5px;
-    color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.second-title-text{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: var(--h2-font-size);
+    text-align: center;
 }
